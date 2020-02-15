@@ -1,0 +1,45 @@
+[debug] [2020-02-15T17:16:21.028Z] ----------------------------------------------------------------------
+[debug] [2020-02-15T17:16:21.032Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HASSAN JAFRI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-02-15T17:16:21.032Z] CLI Version:   7.13.0
+[debug] [2020-02-15T17:16:21.032Z] Platform:      win32
+[debug] [2020-02-15T17:16:21.032Z] Node Version:  v12.13.0
+[debug] [2020-02-15T17:16:21.035Z] Time:          Sat Feb 15 2020 22:16:21 GMT+0500 (Pakistan Standard Time)
+[debug] [2020-02-15T17:16:21.035Z] ----------------------------------------------------------------------
+[debug] [2020-02-15T17:16:21.035Z] 
+[debug] [2020-02-15T17:16:21.050Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-15T17:16:21.051Z] > authorizing via signed-in user
+[debug] [2020-02-15T17:16:21.051Z] [iam] checking project blogsbyhassan for permissions ["firebase.projects.get"]
+[debug] [2020-02-15T17:16:21.054Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/blogsbyhassan:testIamPermissions  
+
+[debug] [2020-02-15T17:16:22.925Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-15T17:16:22.928Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/blogsbyhassan  
+ 
+[debug] [2020-02-15T17:16:23.825Z] Error: getaddrinfo ENOTFOUND firebase.googleapis.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND firebase.googleapis.com
+[debug] [2020-02-15T17:17:26.792Z] ----------------------------------------------------------------------
+[debug] [2020-02-15T17:17:26.796Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HASSAN JAFRI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-02-15T17:17:26.796Z] CLI Version:   7.13.0
+[debug] [2020-02-15T17:17:26.796Z] Platform:      win32
+[debug] [2020-02-15T17:17:26.796Z] Node Version:  v12.13.0
+[debug] [2020-02-15T17:17:26.799Z] Time:          Sat Feb 15 2020 22:17:26 GMT+0500 (Pakistan Standard Time)
+[debug] [2020-02-15T17:17:26.799Z] ----------------------------------------------------------------------
+[debug] [2020-02-15T17:17:26.799Z] 
+[debug] [2020-02-15T17:17:26.813Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-15T17:17:26.814Z] > authorizing via signed-in user
+[debug] [2020-02-15T17:17:26.814Z] [iam] checking project blogsbyhassan for permissions ["firebase.projects.get"]
+[debug] [2020-02-15T17:17:26.817Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/blogsbyhassan:testIamPermissions  
+
+[debug] [2020-02-15T17:17:28.564Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-15T17:17:28.567Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/blogsbyhassan  
+ 
+[debug] [2020-02-15T17:17:29.464Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\HASSAN JAFRI\Desktop\portfolio'...
+[info] 
+[debug] [2020-02-15T17:17:29.496Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/blogsbyhassan/webApps/-/config  
+ 
+[debug] [2020-02-15T17:17:31.673Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
